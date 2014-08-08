@@ -21,12 +21,12 @@ module Rapidfire
       @question = QuestionForm.new(form_params)
       @question.save
       
-      respond_with(@question, location: index_location)
-    #  if Rails.env == "production" 
-    #    respond_with(@question_group, location: "http://107.170.67.113/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
-    #  else
-     #   respond_with(@question_group, location: "http://localhost:3000/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
-    #  end
+    #  respond_with(@question, location: index_location)
+      if Rails.env == "production" 
+        respond_with(@question_group, location: "http://107.170.67.113/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
+      else
+        respond_with(@question_group, location: "http://localhost:3000/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
+      end
  
     end
 
