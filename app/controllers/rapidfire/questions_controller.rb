@@ -20,8 +20,14 @@ module Rapidfire
       form_params = params[:question].merge(:question_group => @question_group)
       @question = QuestionForm.new(form_params)
       @question.save
-
-      respond_with(@question, location: index_location)
+      
+#      respond_with(@question, location: index_location)
+      if Rails.env == "production" 
+        respond_with(@question_group, location: "http://#{request.remote_ip}/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
+      else
+        respond_with(@question_group, location: "http://localhost:3000/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
+      end
+ 
     end
 
     def edit

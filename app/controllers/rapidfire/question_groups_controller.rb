@@ -17,8 +17,15 @@ module Rapidfire
     def create
       @question_group = QuestionGroup.new(question_group_params)
       @question_group.save
+      puts "##################{rapidfire.question_groups_url}###########"
+      puts "##################{request.remote_ip}###########"
 
-      respond_with(@question_group, location: rapidfire.question_groups_url)
+#      respond_with(@question_group, location: rapidfire.question_groups_url)
+      if Rails.env == "production" 
+        respond_with(@question_group, location: "http://#{request.remote_ip}/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
+      else
+        respond_with(@question_group, location: "http://localhost:3000/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
+      end
     end
 
     def destroy
