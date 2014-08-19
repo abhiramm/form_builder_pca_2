@@ -16,16 +16,18 @@ module Rapidfire
 
     def create
       @question_group = QuestionGroup.new(question_group_params)
+      @question_group.day_care_id = params[:day_care_id]
       @question_group.save
+      
       puts "##################{rapidfire.question_groups_url}###########"
       puts "##################{request.remote_ip}###########"
 
      # respond_with(@question_group, location: rapidfire.question_groups_url)
       if Rails.env == "production" 
         respond_with(@question_group, location: "http://107.170.67.113/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
-    else
+      else
         respond_with(@question_group, location: "http://localhost:3000/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
-    end
+      end
     end
 
     def destroy
@@ -46,7 +48,7 @@ module Rapidfire
     private
     def question_group_params
       if Rails::VERSION::MAJOR == 4
-        params.require(:question_group).permit(:name)
+        params.require(:question_group).permit(:name, :description, :day_care_id)
       else
         params[:question_group]
       end

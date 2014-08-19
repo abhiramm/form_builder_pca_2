@@ -4,6 +4,7 @@ module Rapidfire
 
     def new
       @answer_group_builder = AnswerGroupBuilder.new(answer_group_params)
+      Rails.logger.info "Inside Answer groups controller in new method #{answer_group_params}"
       @device = Device.find_by_device_id(params[:device_id])
       if @device and @device.authorized
         @child = @device.parent.children.first
@@ -27,6 +28,8 @@ module Rapidfire
 
     def answer_group_params
       answer_params = { params: params[:answer_group] }
+      Rails.logger.info "answer_group#{params[:answer_group]}"
+      
       # Have changed current_user to parent since we dont have user session for parent
       if params[:child_id]
         child = Child.find_by_id(params[:child_id])
