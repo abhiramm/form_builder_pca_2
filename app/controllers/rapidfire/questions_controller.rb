@@ -31,9 +31,9 @@ module Rapidfire
       
     #  respond_with(@question, location: index_location)
       if Rails.env == "production" 
-        respond_with(@question_group, location: "http://107.170.67.113/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
+        respond_with(@question_group, location: "http://app.parentsconnectapp.com/course_forms/question_groups/#{@question_group.id}/questions/new")
       else
-        respond_with(@question_group, location: "http://localhost:3000/course_forms/question_groups/#{@question_group.id}/answer_groups/new")
+        respond_with(@question_group, location: "http://localhost:3000/course_forms/question_groups/#{@question_group.id}/questions/new")
       end
  
     end
