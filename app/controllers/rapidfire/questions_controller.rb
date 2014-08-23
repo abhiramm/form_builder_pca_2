@@ -15,13 +15,7 @@ module Rapidfire
       @question = QuestionForm.new(:question_group => @question_group)
       @question_group = QuestionGroup.find(params[:question_group_id])
       
-      if @question_group.form_type == "multi"
-        @form_types = ::Rapidfire::QuestionForm::QUESTION_TYPES.except("Radio", "Short")
-      elsif @question_group.form_type == "yn"
-        @form_types = ::Rapidfire::QuestionForm::QUESTION_TYPES.except("Checkbox", "Short")
-      else
-        @form_types = ::Rapidfire::QuestionForm::QUESTION_TYPES.except("Radio", "Checkbox")
-      end
+     
       
       # To bring form show page in add field page
       answer_params = {}
