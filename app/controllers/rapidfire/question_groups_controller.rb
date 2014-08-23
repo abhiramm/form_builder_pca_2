@@ -17,6 +17,7 @@ module Rapidfire
     def create
       @question_group = QuestionGroup.new(question_group_params)
       @question_group.day_care_id = params[:day_care_id]
+      @question_group.form_type = params[:form_type]
       @question_group.save
       
       puts "##################{rapidfire.question_groups_url}###########"
@@ -48,7 +49,7 @@ module Rapidfire
     private
     def question_group_params
       if Rails::VERSION::MAJOR == 4
-        params.require(:question_group).permit(:name, :description, :day_care_id)
+        params.require(:question_group).permit(:name, :description, :day_care_id, :form_type)
       else
         params[:question_group]
       end

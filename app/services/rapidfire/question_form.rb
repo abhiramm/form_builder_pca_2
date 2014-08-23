@@ -1,15 +1,17 @@
 module Rapidfire
   class QuestionForm < Rapidfire::BaseService
-    AVAILABLE_QUESTIONS =
+  
+      AVAILABLE_QUESTIONS =
       [
        Rapidfire::Questions::Checkbox,
-       Rapidfire::Questions::Date,
-       Rapidfire::Questions::Long,
-       Rapidfire::Questions::Numeric,
+      # Rapidfire::Questions::Date,
+      # Rapidfire::Questions::Long,
+      # Rapidfire::Questions::Numeric,
        Rapidfire::Questions::Radio,
-       Rapidfire::Questions::Select,
+      # Rapidfire::Questions::Select,
        Rapidfire::Questions::Short,
       ]
+        
 
     QUESTION_TYPES = AVAILABLE_QUESTIONS.inject({}) do |result, question|
       question_name = question.to_s.split("::").last
