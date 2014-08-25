@@ -15,9 +15,9 @@ module Rapidfire
       @answer_group_builder = AnswerGroupBuilder.new(answer_group_params)
 
       if @answer_group_builder.save
-        redirect_to question_groups_path
+        redirect_to main_app.form_builder_registered_path, :gflash => { :success => 'Thanks for submitting the form' }
       else
-        render :new
+        render main_app.form_builder_registered_path, :gflash => { :success => 'Thanks for submitting the form' }
       end
     end
 
