@@ -1,0 +1,291 @@
+1408968894
+#options	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	describe "#options" do
+#options	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	describe "#options" do
+#rules	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	describe "#rules" do
+#save	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	describe "#save" do
+#save	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	describe "#save" do
+#to_json	/devel/rapidfire/spec/serializers/rapidfire/question_result_serializer_spec.rb	describe "#to_json" do
+AVAILABLE_QUESTIONS	/devel/rapidfire/app/services/rapidfire/question_form.rb	      AVAILABLE_QUESTIONS =
+AccessDenied	/devel/rapidfire/lib/rapidfire.rb	  class AccessDenied 
+AddDetailsToRapidfireQuestionGroups	/devel/rapidfire/db/migrate/20140808040705_add_details_to_rapidfire_question_groups.rb	class AddDetailsToRapidfireQuestionGroups 
+AddDetailsToRapidfireQuestionGroups	/devel/rapidfire/spec/dummy/db/migrate/20140808041230_add_details_to_rapidfire_question_groups.rapidfire.rb	class AddDetailsToRapidfireQuestionGroups 
+AddFormTypeToRapidfireQuestionGroups	/devel/rapidfire/db/migrate/20140822191317_add_form_type_to_rapidfire_question_groups.rb	class AddFormTypeToRapidfireQuestionGroups 
+Answer	/devel/rapidfire/app/models/rapidfire/answer.rb	  class Answer 
+AnswerGroup	/devel/rapidfire/app/models/rapidfire/answer_group.rb	  class AnswerGroup 
+AnswerGroupBuilder	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	  class AnswerGroupBuilder 
+AnswerGroupsController	/devel/rapidfire/app/controllers/rapidfire/answer_groups_controller.rb	  class AnswerGroupsController 
+AnswerSpecHelper	/devel/rapidfire/spec/support/rapidfire/answer_spec_helper.rb	  module AnswerSpecHelper
+Answering Questions	/devel/rapidfire/spec/features/rapidfire/answering_questions_spec.rb	describe "Answering Questions" do
+Application	/devel/rapidfire/spec/dummy/config/application.rb	  class Application 
+ApplicationController	/devel/rapidfire/spec/dummy/app/controllers/application_controller.rb	class ApplicationController 
+ApplicationController	/devel/rapidfire/app/controllers/rapidfire/application_controller.rb	  class ApplicationController 
+ApplicationHelper	/devel/rapidfire/spec/dummy/app/helpers/application_helper.rb	module ApplicationHelper
+ApplicationHelper	/devel/rapidfire/app/helpers/rapidfire/application_helper.rb	  module ApplicationHelper
+Associations	/devel/rapidfire/spec/models/rapidfire/question_group_spec.rb	describe "Associations" do
+Associations	/devel/rapidfire/spec/models/rapidfire/answer_group_spec.rb	describe "Associations" do
+Associations	/devel/rapidfire/spec/models/rapidfire/answer_spec.rb	describe "Associations" do
+Associations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	describe "Associations" do
+BaseService	/devel/rapidfire/app/services/rapidfire/base_service.rb	  class BaseService
+CREATING Question	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	describe "CREATING Question" do
+CREATING Question Group	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	describe "CREATING Question Group" do
+Checkbox	/devel/rapidfire/app/models/rapidfire/questions/checkbox.rb	    class Checkbox 
+CreateRapidfireAnswerGroups	/devel/rapidfire/db/migrate/20130502195415_create_rapidfire_answer_groups.rb	class CreateRapidfireAnswerGroups 
+CreateRapidfireAnswerGroups	/devel/rapidfire/spec/dummy/db/migrate/20140808041228_create_rapidfire_answer_groups.rapidfire.rb	class CreateRapidfireAnswerGroups 
+CreateRapidfireAnswers	/devel/rapidfire/db/migrate/20130502195504_create_rapidfire_answers.rb	class CreateRapidfireAnswers 
+CreateRapidfireAnswers	/devel/rapidfire/spec/dummy/db/migrate/20140808041229_create_rapidfire_answers.rapidfire.rb	class CreateRapidfireAnswers 
+CreateRapidfireQuestionGroups	/devel/rapidfire/db/migrate/20130502170733_create_rapidfire_question_groups.rb	class CreateRapidfireQuestionGroups 
+CreateRapidfireQuestionGroups	/devel/rapidfire/spec/dummy/db/migrate/20140808041226_create_rapidfire_question_groups.rapidfire.rb	class CreateRapidfireQuestionGroups 
+CreateRapidfireQuestions	/devel/rapidfire/db/migrate/20130502195310_create_rapidfire_questions.rb	class CreateRapidfireQuestions 
+CreateRapidfireQuestions	/devel/rapidfire/spec/dummy/db/migrate/20140808041227_create_rapidfire_questions.rapidfire.rb	class CreateRapidfireQuestions 
+Creation	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	describe "Creation" do
+Creation	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	describe "Creation" do
+DELETE Question	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	describe "DELETE Question" do
+DELETE Question Groups	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	describe "DELETE Question Groups" do
+Date	/devel/rapidfire/app/models/rapidfire/questions/date.rb	    class Date 
+Dummy	/devel/rapidfire/spec/dummy/config/application.rb	module Dummy
+EDITING Question Groups	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	describe "EDITING Question Groups" do
+Engine	/devel/rapidfire/lib/rapidfire/engine.rb	  class Engine 
+GET Question Group results	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	describe "GET Question Group results" do
+Generators	/devel/rapidfire/lib/generators/rapidfire/views_generator.rb	  module Generators
+INDEX Question Groups	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	describe "INDEX Question Groups" do
+Long	/devel/rapidfire/app/models/rapidfire/questions/long.rb	    class Long 
+Numeric	/devel/rapidfire/app/models/rapidfire/questions/numeric.rb	    class Numeric 
+QUESTION_TYPES	/devel/rapidfire/app/services/rapidfire/question_form.rb	    QUESTION_TYPES =
+Question	/devel/rapidfire/app/models/rapidfire/question.rb	  class Question 
+Question Groups	/devel/rapidfire/spec/features/rapidfire/answering_questions_spec.rb	describe "Question Groups" do
+Question Groups	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	describe "Question Groups" do
+QuestionForm	/devel/rapidfire/app/services/rapidfire/question_form.rb	  class QuestionForm 
+QuestionGroup	/devel/rapidfire/app/models/rapidfire/question_group.rb	  class QuestionGroup 
+QuestionGroupResults	/devel/rapidfire/app/services/rapidfire/question_group_results.rb	  class QuestionGroupResults 
+QuestionGroupsController	/devel/rapidfire/app/controllers/rapidfire/question_groups_controller.rb	  class QuestionGroupsController 
+QuestionResult	/devel/rapidfire/app/services/rapidfire/question_result.rb	  class QuestionResult 
+QuestionResultSerializer	/devel/rapidfire/app/serializers/rapidfire/question_result_serializer.rb	  class QuestionResultSerializer 
+QuestionSpecHelper	/devel/rapidfire/spec/support/rapidfire/question_spec_helper.rb	  module QuestionSpecHelper
+Questions	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	describe "Questions" do
+Questions	/devel/rapidfire/app/models/rapidfire/questions/numeric.rb	  module Questions
+Questions	/devel/rapidfire/app/models/rapidfire/questions/checkbox.rb	  module Questions
+Questions	/devel/rapidfire/app/models/rapidfire/questions/short.rb	  module Questions
+Questions	/devel/rapidfire/app/models/rapidfire/questions/date.rb	  module Questions
+Questions	/devel/rapidfire/app/models/rapidfire/questions/long.rb	  module Questions
+Questions	/devel/rapidfire/app/models/rapidfire/questions/select.rb	  module Questions
+Questions	/devel/rapidfire/app/models/rapidfire/questions/radio.rb	  module Questions
+QuestionsController	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	  class QuestionsController 
+RAPIDFIRE_ROOT	/devel/rapidfire/spec/spec_helper.rb	RAPIDFIRE_ROOT =
+Radio	/devel/rapidfire/app/models/rapidfire/questions/radio.rb	    class Radio 
+Rapidfire	/devel/rapidfire/lib/generators/rapidfire/views_generator.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/lib/rapidfire.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/lib/rapidfire/version.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/lib/rapidfire/engine.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/spec/support/rapidfire/question_spec_helper.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/spec/support/rapidfire/answer_spec_helper.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/services/rapidfire/base_service.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/services/rapidfire/question_group_results.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/services/rapidfire/question_result.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/controllers/rapidfire/application_controller.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/serializers/rapidfire/question_result_serializer.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/helpers/rapidfire/application_helper.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/question.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/answer.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/questions/numeric.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/questions/checkbox.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/questions/short.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/questions/date.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/questions/long.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/questions/select.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/questions/radio.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/answer_group.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/models/rapidfire/question_group.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/services/rapidfire/question_form.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/controllers/rapidfire/question_groups_controller.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	module Rapidfire
+Rapidfire	/devel/rapidfire/app/controllers/rapidfire/answer_groups_controller.rb	module Rapidfire
+Select	/devel/rapidfire/app/models/rapidfire/questions/select.rb	    class Select 
+Short	/devel/rapidfire/app/models/rapidfire/questions/short.rb	    class Short 
+UPDATING Question	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	describe "UPDATING Question" do
+VERSION	/devel/rapidfire/lib/rapidfire/version.rb	  VERSION =
+Validations	/devel/rapidfire/spec/models/rapidfire/question_group_spec.rb	describe "Validations" do
+Validations	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	describe "Validations" do
+Validations	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	describe "Validations" do
+Validations	/devel/rapidfire/spec/models/rapidfire/answer_spec.rb	describe "Validations" do
+Validations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	describe "Validations" do
+ViewsGenerator	/devel/rapidfire/lib/generators/rapidfire/views_generator.rb	    class ViewsGenerator 
+active_model_serializer	/devel/rapidfire/app/services/rapidfire/question_result.rb	    def active_model_serializer
+answer should pass validations	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "answer should pass validations" do
+answer should pass validations	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "answer should pass validations" do
+answer should pass validations	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "answer should pass validations" do
+answer should pass validations	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "answer should pass validations" do
+answer should pass validations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "answer should pass validations" do
+answer_group_params	/devel/rapidfire/app/controllers/rapidfire/answer_groups_controller.rb	    def answer_group_params
+answers	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    attr_accessor :user, :question_group, :questions, :answers, :params
+authenticate_administrator!	/devel/rapidfire/app/controllers/rapidfire/application_controller.rb	    def authenticate_administrator!
+build_answer_group	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    def build_answer_group
+builds a dummy question	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	it "builds a dummy question" do
+builds answer group with answers	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	it "builds answer group with answers" do
+builds answers based on number of questions available	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	it "builds answers based on number of questions available" do
+can_administer?	/devel/rapidfire/spec/dummy/app/controllers/application_controller.rb	  def can_administer?
+change	/devel/rapidfire/db/migrate/20130502195310_create_rapidfire_questions.rb	  def change
+change	/devel/rapidfire/db/migrate/20130502195504_create_rapidfire_answers.rb	  def change
+change	/devel/rapidfire/db/migrate/20130502195415_create_rapidfire_answer_groups.rb	  def change
+change	/devel/rapidfire/db/migrate/20130502170733_create_rapidfire_question_groups.rb	  def change
+change	/devel/rapidfire/db/migrate/20140808040705_add_details_to_rapidfire_question_groups.rb	  def change
+change	/devel/rapidfire/spec/dummy/db/migrate/20140808041228_create_rapidfire_answer_groups.rapidfire.rb	  def change
+change	/devel/rapidfire/spec/dummy/db/migrate/20140808041230_add_details_to_rapidfire_question_groups.rapidfire.rb	  def change
+change	/devel/rapidfire/spec/dummy/db/migrate/20140808041229_create_rapidfire_answers.rapidfire.rb	  def change
+change	/devel/rapidfire/spec/dummy/db/migrate/20140808041226_create_rapidfire_question_groups.rapidfire.rb	  def change
+change	/devel/rapidfire/spec/dummy/db/migrate/20140808041227_create_rapidfire_questions.rapidfire.rb	  def change
+change	/devel/rapidfire/db/migrate/20140822191317_add_form_type_to_rapidfire_question_groups.rb	  def change
+checkbox_checked?	/devel/rapidfire/app/helpers/rapidfire/application_helper.rb	    def checkbox_checked?(answer, option)
+converts to with a hash of results	/devel/rapidfire/spec/serializers/rapidfire/question_result_serializer_spec.rb	it "converts to with a hash of results" do
+copy_views	/devel/rapidfire/lib/generators/rapidfire/views_generator.rb	      def copy_views
+create	/devel/rapidfire/app/controllers/rapidfire/question_groups_controller.rb	    def create
+create	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def create
+create	/devel/rapidfire/app/controllers/rapidfire/answer_groups_controller.rb	    def create
+create_answers	/devel/rapidfire/spec/support/rapidfire/answer_spec_helper.rb	    def create_answers
+create_question	/devel/rapidfire/app/services/rapidfire/question_form.rb	    def create_question
+create_questions	/devel/rapidfire/spec/support/rapidfire/question_spec_helper.rb	    def create_questions(question_group)
+creates a question given type	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	it "creates a question given type" do
+creates question	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	it "creates question" do
+creates question group	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "creates question group" do
+current_user	/devel/rapidfire/spec/dummy/app/controllers/application_controller.rb	  def current_user
+delegates validation of answer text to question	/devel/rapidfire/spec/models/rapidfire/answer_spec.rb	it "delegates validation of answer text to question" do
+deletes the question group	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "deletes the question group" do
+deletes the questions	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	it "deletes the questions" do
+destroy	/devel/rapidfire/app/controllers/rapidfire/question_groups_controller.rb	    def destroy
+destroy	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def destroy
+doesn't show option to delete question group	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "doesn't show option to delete question group" do
+edit	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def edit
+extract	/devel/rapidfire/app/services/rapidfire/question_group_results.rb	    def extract
+fails to access the page	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "fails to access the page" do
+fails to create question group	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "fails to create question group" do
+fails to create question group	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	it "fails to create question group" do
+fails to persits answers	/devel/rapidfire/spec/features/rapidfire/answering_questions_spec.rb	it "fails to persits answers" do
+fails to presist the question	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	it "fails to presist the question" do
+fails to save those answers	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	it "fails to save those answers" do
+fails to update question	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	it "fails to update question" do
+fails validation	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "fails validation" do
+fails validation	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "fails validation" do
+fails validation	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "fails validation" do
+fails validation	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "fails validation" do
+fails validation	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "fails validation" do
+fails validation	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "fails validation" do
+fails validation	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "fails validation" do
+fails validation	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "fails validation" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "fails validations" do
+fails validations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "fails validations" do
+find_question!	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def find_question!
+find_question_group!	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def find_question_group!
+find_question_group!	/devel/rapidfire/app/controllers/rapidfire/answer_groups_controller.rb	    def find_question_group!
+from_question_to_attributes	/devel/rapidfire/app/services/rapidfire/question_form.rb	    def from_question_to_attributes(question)
+index	/devel/rapidfire/app/controllers/rapidfire/question_groups_controller.rb	    def index
+index	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def index
+index_location	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def index_location
+inherited	/devel/rapidfire/app/models/rapidfire/question.rb	    def self.inherited(child)
+initialize	/devel/rapidfire/app/services/rapidfire/base_service.rb	      def initialize(params={})
+initialize	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    def initialize(params = {})
+initialize	/devel/rapidfire/app/services/rapidfire/question_form.rb	    def initialize(params = {})
+lists all question groups	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "lists all question groups" do
+model_name	/devel/rapidfire/app/models/rapidfire/question.rb	        def model_name
+new	/devel/rapidfire/app/controllers/rapidfire/question_groups_controller.rb	    def new
+new	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def new
+new	/devel/rapidfire/app/controllers/rapidfire/answer_groups_controller.rb	    def new
+options	/devel/rapidfire/app/models/rapidfire/questions/checkbox.rb	      def options
+options	/devel/rapidfire/app/models/rapidfire/questions/select.rb	      def options
+page shouldnot have link to create groups	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "page shouldnot have link to create groups" do
+params	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    attr_accessor :user, :question_group, :questions, :answers, :params
+passes validation	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "passes validation" do
+passes validation	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "passes validation" do
+passes validation	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "passes validation" do
+passes validation	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "passes validation" do
+passes validation	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "passes validation" do
+passes validation	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "passes validation" do
+passes validation	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "passes validation" do
+passes validation	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "passes validation" do
+passes validations	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "passes validations" do
+passes validations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "passes validations" do
+passes validations	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "passes validations" do
+persisted	/devel/rapidfire/app/services/rapidfire/base_service.rb	      def persisted;
+persists 2 answers	/devel/rapidfire/spec/features/rapidfire/answering_questions_spec.rb	it "persists 2 answers" do
+persists 2 answers with answer values	/devel/rapidfire/spec/features/rapidfire/answering_questions_spec.rb	it "persists 2 answers with answer values" do
+persists params in created question	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	it "persists params in created question" do
+persists question params	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	it "persists question params" do
+persists the question	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	it "persists the question" do
+persists those params	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	it "persists those params" do
+question	/devel/rapidfire/app/services/rapidfire/question_result.rb	    attr_accessor :question, :results
+question	/devel/rapidfire/app/services/rapidfire/question_form.rb	    attr_accessor :question_group, :question,
+question_group	/devel/rapidfire/app/services/rapidfire/question_group_results.rb	    attr_accessor :question_group
+question_group	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    attr_accessor :user, :question_group, :questions, :answers, :params
+question_group	/devel/rapidfire/app/services/rapidfire/question_form.rb	    attr_accessor :question_group, :question,
+question_group_params	/devel/rapidfire/app/controllers/rapidfire/question_groups_controller.rb	    def question_group_params
+question_text	/devel/rapidfire/app/serializers/rapidfire/question_result_serializer.rb	    def question_text
+question_type	/devel/rapidfire/app/serializers/rapidfire/question_result_serializer.rb	    def question_type
+questions	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    attr_accessor :user, :question_group, :questions, :answers, :params
+redirects to question groups path	/devel/rapidfire/spec/features/rapidfire/answering_questions_spec.rb	it "redirects to question groups path" do
+render_answer_form_helper	/devel/rapidfire/app/helpers/rapidfire/application_helper.rb	    def render_answer_form_helper(answer, form)
+results	/devel/rapidfire/app/services/rapidfire/question_result.rb	    attr_accessor :question, :results
+results	/devel/rapidfire/app/controllers/rapidfire/question_groups_controller.rb	    def results
+returns an array of results	/devel/rapidfire/spec/serializers/rapidfire/question_result_serializer_spec.rb	it "returns an array of results" do
+returns empty hash	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "returns empty hash" do
+returns false	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	it "returns false" do
+returns options	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "returns options" do
+returns options	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "returns options" do
+returns those rules	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "returns those rules" do
+returns true	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	it "returns true" do
+returns true	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	it "returns true" do
+rules	/devel/rapidfire/app/models/rapidfire/question.rb	    def rules
+save	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    def save(options = {})
+save	/devel/rapidfire/app/services/rapidfire/question_form.rb	    def save
+save!	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    def save!(options = {})
+saves all the answers	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	it "saves all the answers" do
+says answer is invalid	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "says answer is invalid" do
+says answer is invalid	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "says answer is invalid" do
+says answer is invalid	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "says answer is invalid" do
+says answer is invalid	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "says answer is invalid" do
+says answer is invalid	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "says answer is invalid" do
+says answer is invalid	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "says answer is invalid" do
+says answer is invalid	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "says answer is invalid" do
+says answer is not a number	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "says answer is not a number" do
+says answer is too long	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "says answer is too long" do
+says answer is too long	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "says answer is too long" do
+says answer is too short	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "says answer is too short" do
+says answer is too short	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "says answer is too short" do
+says answer is too short	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "says answer is too short" do
+says answer should be present	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	it "says answer should be present" do
+says answer should be present	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	it "says answer should be present" do
+says answer should be present	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	it "says answer should be present" do
+says answer should be present	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	it "says answer should be present" do
+says answer should be present	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	it "says answer should be present" do
+shows already populated answers	/devel/rapidfire/spec/features/rapidfire/answering_questions_spec.rb	it "shows already populated answers" do
+shows error for missing answers	/devel/rapidfire/spec/features/rapidfire/answering_questions_spec.rb	it "shows error for missing answers" do
+shows results for particular question group	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "shows results for particular question group" do
+shows set of questions	/devel/rapidfire/spec/features/rapidfire/managing_question_groups_spec.rb	it "shows set of questions" do
+strip_checkbox_answers	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    def strip_checkbox_answers(text)
+successfully saves answers	/devel/rapidfire/spec/services/rapidfire/answer_group_builder_spec.rb	it "successfully saves answers" do
+to_model	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    def to_model
+to_model	/devel/rapidfire/app/services/rapidfire/question_form.rb	    def to_model
+to_question_params	/devel/rapidfire/app/services/rapidfire/question_form.rb	    def to_question_params
+update	/devel/rapidfire/app/controllers/rapidfire/questions_controller.rb	    def update
+update_question	/devel/rapidfire/app/services/rapidfire/question_form.rb	    def update_question
+updates question	/devel/rapidfire/spec/features/rapidfire/managing_questions_spec.rb	it "updates question" do
+updates the question	/devel/rapidfire/spec/services/rapidfire/question_form_spec.rb	it "updates the question" do
+user	/devel/rapidfire/app/services/rapidfire/answer_group_builder.rb	    attr_accessor :user, :question_group, :questions, :answers, :params
+validate_answer	/devel/rapidfire/spec/models/rapidfire/questions/select_spec.rb	describe "validate_answer" do
+validate_answer	/devel/rapidfire/spec/models/rapidfire/questions/date_spec.rb	describe "validate_answer" do
+validate_answer	/devel/rapidfire/spec/models/rapidfire/questions/checkbox_spec.rb	describe "validate_answer" do
+validate_answer	/devel/rapidfire/spec/models/rapidfire/questions/numeric_spec.rb	describe "validate_answer" do
+validate_answer	/devel/rapidfire/spec/models/rapidfire/question_spec.rb	describe "validate_answer" do
+validate_answer	/devel/rapidfire/app/models/rapidfire/question.rb	    def validate_answer(answer)
+validate_answer	/devel/rapidfire/app/models/rapidfire/questions/numeric.rb	      def validate_answer(answer)
+validate_answer	/devel/rapidfire/app/models/rapidfire/questions/checkbox.rb	      def validate_answer(answer)
+validate_answer	/devel/rapidfire/app/models/rapidfire/questions/date.rb	      def validate_answer(answer)
+validate_answer	/devel/rapidfire/app/models/rapidfire/questions/select.rb	      def validate_answer(answer)
+verify_answer_text	/devel/rapidfire/app/models/rapidfire/answer.rb	    def verify_answer_text
+view_directory	/devel/rapidfire/lib/generators/rapidfire/views_generator.rb	      def view_directory(name)
