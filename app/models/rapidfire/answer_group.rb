@@ -6,7 +6,7 @@ module Rapidfire
     after_create :notify
 
     if Rails::VERSION::MAJOR == 3
-      attr_accessible :question_group, :user, :is_read, :day_care_id_read
+      attr_accessible :question_group, :user, :is_read, :day_care_id_read, :payment_status
     end
     
     def notify

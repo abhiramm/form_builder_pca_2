@@ -16,8 +16,9 @@ module Rapidfire
      # @answer_group_builder.is_read = false
       if @answer_group_builder.save
       
-        redirect_to main_app.form_builder_registered_path, :gflash => { :success => 'Thanks for submitting the form' }
-      else
+#        redirect_to main_app.form_builder_registered_path, :gflash => { :success => 'Thanks for submitting the form'} 
+         redirect_to main_app.form_builder_subscription_path(:answer_group_id => @answer_group_builder.answers.first.answer_group_id), :gflash => { :success => 'Thanks for submitting the form' }
+       else
         render main_app.form_builder_registered_path, :gflash => { :success => 'Thanks for submitting the form' }
       end
     end
