@@ -17,7 +17,7 @@ module Rapidfire
       if @answer_group_builder.save
       
 #        redirect_to main_app.form_builder_registered_path, :gflash => { :success => 'Thanks for submitting the form'} 
-         redirect_to main_app.form_builder_subscription_path(:answer_group_id => @answer_group_builder.answers.first.answer_group_id), :gflash => { :success => 'Thanks for submitting the form' }
+         redirect_to main_app.form_builder_summary_path(:answer_group_id => @answer_group_builder.answers.first.answer_group_id), :gflash => { :success => 'Thanks for submitting the form' }
        else
         render main_app.form_builder_registered_path, :gflash => { :success => 'Thanks for submitting the form' }
       end
@@ -35,8 +35,7 @@ module Rapidfire
       # Have changed current_user to parent since we dont have user session for parent
       if params[:child_id]
         child = Child.find_by_id(params[:child_id])
-
-      answer_params.merge(user: child, question_group: @question_group)
+        answer_params.merge(user: child, question_group: @question_group)
     else
       answer_params.merge(user: current_user, question_group: @question_group)
     end
