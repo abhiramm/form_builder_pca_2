@@ -28,7 +28,11 @@ module Rapidfire
                         @question_group.admin_comm = admin_comm
                         @question_group.stripe_comm = stripe_comm
                         @question_group.total_amount = total_amount
-                        @question_group.save
+			@question_group.save
+			params[:classes].each do |c|
+                         FormStage.create(:question_group_id => @question_group.id, :stage => c)
+			end
+			#Rails.logger.info "Form class saved #{fc}"
                         Rails.logger.info "#{@question_group}"
                         puts "##################{rapidfire.question_groups_url}###########"
                         puts "##################{request.remote_ip}###########"

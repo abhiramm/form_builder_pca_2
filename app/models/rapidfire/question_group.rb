@@ -16,5 +16,5 @@ module Rapidfire
 	  false
          end
     end
-    end
+  end
 end
