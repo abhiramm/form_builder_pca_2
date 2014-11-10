@@ -6,8 +6,20 @@ module Rapidfire
       @answer_group_builder = AnswerGroupBuilder.new(answer_group_params)
       Rails.logger.info "Inside Answer groups controller in new method #{answer_group_params}"
       @device = Device.find_by_device_id(params[:device_id])
+
+      Rails.logger.info "ccccccccccccchildren stage{c.student_stage}"
       if @device and @device.authorized
-        @child = @device.parent.children.first
+            stages = FormStage.where(:question_group_id => @answer_group_builder.question_group.id).collect{|x| x.stage} 
+            Rails.logger.info "Stagessssss #{stages}"
+            @children = [] 
+             @device.parent.children.each do |c|
+                     if stages.include? c.student_stage
+                        @children << c
+                     end
+
+             
+             end
+             Rails.logger.info 'eeeeeeeeestages #{stages}'
       end
     end
 
