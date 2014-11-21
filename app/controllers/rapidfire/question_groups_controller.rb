@@ -18,6 +18,7 @@ module Rapidfire
                         @question_group = QuestionGroup.new(question_group_params)
                         @question_group.day_care_id = params[:day_care_id]
                         @question_group.form_type = params[:form_type]
+                        @question_group.child_id = params[:child_id]
                         course_fees = params[:question_group][:amount].to_f
                         puts "course_fee #{course_fees}"
 
