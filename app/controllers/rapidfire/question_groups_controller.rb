@@ -29,6 +29,11 @@ module Rapidfire
                         @question_group.admin_comm = admin_comm
                         @question_group.stripe_comm = stripe_comm
                         @question_group.total_amount = total_amount
+                        Rails.logger.info "################________________________question_groups in params #{params[:question_group]}"
+			if params[:form_type] == "ir"
+				@question_group.name = "Incident Report: #{params[:question_group][:name]}"
+			Rails.logger.info "question_groupppppppppppppppppppppp #{@question_group.name}"
+			end
 			@question_group.save
 			params[:classes].each do |c|
                          FormStage.create(:question_group_id => @question_group.id, :stage => c)

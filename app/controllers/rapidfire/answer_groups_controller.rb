@@ -10,10 +10,12 @@ module Rapidfire
       Rails.logger.info "ccccccccccccchildren stage{c.student_stage}"
       if @device and @device.authorized
             stages = FormStage.where(:question_group_id => @answer_group_builder.question_group.id).collect{|x| x.stage} 
-            Rails.logger.info "Stagessssss #{stages}"
+            Rails.logger.info "**************** Form Stagessssss #{stages}"
             @children = [] 
              @device.parent.children.each do |c|
+			Rails.logger.info "***************************Children #{c.first_name}"
                      if stages.include? c.student_stage
+		 	Rails.logger.info "******************************student_stage #{c.student_stage}"
                         @children << c
                      end
 
