@@ -14,9 +14,6 @@ module Rapidfire
     def new
       @question = QuestionForm.new(:question_group => @question_group)
       @question_group = QuestionGroup.find(params[:question_group_id])
-      
-     
-      
       # To bring form show page in add field page
       answer_params = {}
       answer_params[:user] = current_user
@@ -43,6 +40,11 @@ module Rapidfire
 
     def edit
       @question = QuestionForm.new(:question => @question)
+      answer_params = {}
+      answer_params[:user] = current_user
+      answer_params[:question_group] = @question_group
+      puts "Answer_params in questions #{answer_params}"
+      @answer_group_builder = AnswerGroupBuilder.new(answer_params)
       respond_with(@question)
     end
 
