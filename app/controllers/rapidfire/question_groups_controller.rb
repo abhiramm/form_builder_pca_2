@@ -3,6 +3,10 @@ module Rapidfire
                 before_filter :authenticate_administrator!, except: :index
                 respond_to :html, :js
                 respond_to :json, only: :results
+                  authorize_actions_for :question_group_class, actions: { result: 'read'}
+                 def question_group_class
+                  [QuestionGroup, {model: "forms"}]
+                 end
 
                 def index
                         @question_groups = QuestionGroup.all

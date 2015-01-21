@@ -6,6 +6,7 @@ module Rapidfire
     before_filter :find_question_group!
     before_filter :find_question!, :only => [:edit, :update, :destroy]
 
+
     def index
       @questions = @question_group.questions
       respond_with(@questions)
