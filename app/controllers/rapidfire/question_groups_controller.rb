@@ -27,9 +27,9 @@ module Rapidfire
                         puts "course_fee #{course_fees}"
 
                         admin_comm = 2.75
-                        stripe_comm = ((course_fees + admin_comm) * 2.9/100)
+                        stripe_comm = ((course_fees + admin_comm) * 2.9/100) + 0.30
                         puts "stripe commission: #{stripe_comm}"
-                        total_amount = course_fees + admin_comm + stripe_comm + 0.30
+                        total_amount = course_fees + admin_comm + stripe_comm
                         @question_group.admin_comm = admin_comm
                         @question_group.stripe_comm = stripe_comm
                         @question_group.total_amount = total_amount
